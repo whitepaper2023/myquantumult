@@ -9,8 +9,8 @@
 *******************************
 [rewrite_local]
 # > javdb 解锁永久会员
-^https?:\/\/api\.pxxgg\.xyz\/api\/v1\/users url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/lsp/javbdvipcrack.js
-^https?:\/\/api\.pxxgg\.xyz\/api\/v1\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/lsp/javbdvipcrack.js
+^https?:\/\/api\.pxxgg\.xyz\/api\/v1\/users url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/javdbvipcrack.js
+^https?:\/\/api\.pxxgg\.xyz\/api\/v1\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/javdbvipcrack.js
 [mitm] 
 hostname = api.pxxgg.xyz 
 *******************************/
