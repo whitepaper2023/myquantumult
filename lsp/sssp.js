@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-^https:\/\/files\.(yuchenglw|honghufly)\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/sssp.js
+^https:\/\/files\.(yuchenglw|honghufly)\.com url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/lsp/sssp.js
 
 [mitm]
 
