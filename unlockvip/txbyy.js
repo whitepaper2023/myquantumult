@@ -1,20 +1,15 @@
 /**
 
-Tg频道:https://t.me/gjwj6
-
-ios鸡神制作 
-
-解锁vip
+ios鸡神制作：gjwj666 
 
 # 兔小贝儿童英语v1.2 解锁会员
-
 # 下载：商店搜索安装或链接直达 https://apps.apple.com/cn/app/id1495140048
 
 
  [rewrite_local]
 
 
-^https://.*-api\.tuxiaobei\.com/v1/user/ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/txbyy.js
+^https://.*-api\.tuxiaobei\.com/v1/user/ url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/txbyy.js
 
 [mitm]
 hostname = *-api.tuxiaobei.com
