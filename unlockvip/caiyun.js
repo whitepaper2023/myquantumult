@@ -2,13 +2,12 @@
 
 项目名称：彩云天气 解锁SVIP
 下载地址：https://t.cn/A66d95hV
-使用声明：仅供学习与交流，请勿转载与贩卖！⚠️
 
 **************************************
 
 [rewrite_local]
 
-^https:\/\/biz\.(caiyunapp|cyapi)\.(com|cn) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
+^https:\/\/biz\.(caiyunapp|cyapi)\.(com|cn) url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/caiyun.js
 
 ^https:\/\/ad\.caiyunapp\.com\/ url reject
 
