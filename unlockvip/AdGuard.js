@@ -3,13 +3,13 @@
 项目名称：AdGuard-Safari浏览器扩展
 下载地址：https://t.cn/A6xe1oaK
 脚本作者：chxm1023
-使用声明：⚠️仅供参考，🈲转载与售卖！
+
 
 **************************************
 
 [rewrite_local]
 
-^https:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt\/(.*?) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/AdGuard.js
+^https:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt\/(.*?) url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/AdGuard.js
 
 [mitm]
 hostname = mobile-api.adguard.org
