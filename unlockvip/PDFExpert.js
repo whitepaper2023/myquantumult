@@ -1,14 +1,12 @@
 /******************************
 
 脚本功能：PDF Expert 解锁订阅
-
 下载地址：https://is.gd/DLjoIn
-
-
+作者：jizhi0520
 
 *******************************
 
-^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh url script-request-body https://raw.githubusercontent.com/jizhi0520/QX/main/PDFExpert.js
+^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh url script-request-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/PDFExpert.js
 
 [mitm] 
 
