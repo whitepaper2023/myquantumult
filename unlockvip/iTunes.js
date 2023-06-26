@@ -58,7 +58,7 @@
 
 [rewrite_local]
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-echo-response https://raw.githubusercontent.com/chxm1023/script/main/Rewrite/iTunes.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-echo-response https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/iTunes.js
 
 [mitm]
 
