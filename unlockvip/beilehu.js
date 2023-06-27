@@ -2,24 +2,14 @@
 
 脚本功能：贝乐虎启蒙 解锁所有视频+付费课程
 
-
 APP下载地址：https://apps.apple.com/cn/app/%E8%B4%9D%E4%B9%90%E8%99%8E%E5%90%AF%E8%92%99-%E5%AE%9D%E5%AE%9D%E7%9B%8A%E6%99%BA%E6%97%A9%E6%95%99%E5%A4%A7%E5%85%A8/id1478104309
 
-
-软件版本：所有
 脚本作者：伟人
-作者QQ:55749353
-更新时间：2022-12-12
-问题反馈：QQ+55749353
-QQ会员群：添加作者
-TG反馈群：https://t.me/WeiRenOvO
-TG频道群：https://t.me/WeiRenQAQ
-如果出现: 无法播放，等等问题请添加Tg频道反馈
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+
 
 [rewrite_local]
 
-^http[s]?:\/\/.*ubestkid.*(getUserProfile|course|api/v1/featureV2|xtapi/zhuanlan|/api/v1/bv/videoV2).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/beile.js
+^http[s]?:\/\/.*ubestkid.*(getUserProfile|course|api/v1/featureV2|xtapi/zhuanlan|/api/v1/bv/videoV2).*$ url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/beilehu.js
 
 [mitm]
 hostname = *ubestkid*
