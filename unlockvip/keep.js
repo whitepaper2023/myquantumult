@@ -1,18 +1,10 @@
 /*
 脚本功能：keep 解锁会员课，直播课
-下载地址：appstore
-软件版本：所有
+
 脚本作者：伟人
-作者QQ:55749353
-更新时间：2022-11-22
-问题反馈：QQ+55749353
-QQ会员群：添加作者
-TG反馈群：https://t.me/WeiRenQAQ
-TG频道群：暂无
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
-^http[s]?:\/\/.+keep.+(athena/v7/people/my|/ad/preload|details|preview|/start|liveStream/schedule|course/v3/plans|/home/prime/page).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/keep.js
 
+^http[s]?:\/\/.+keep.+(athena/v7/people/my|/ad/preload|details|preview|/start|liveStream/schedule|course/v3/plans|/home/prime/page).*$ url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/keep.js
 hostname = *keep*
 
 */
