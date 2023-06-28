@@ -5,7 +5,7 @@
 
 
 [rewrite_local]
-^https:\/\/www\.1314zhilv\.com\/ltsstnew\/(userApplet|user)\/getInfo url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/ltsst.js
+^https:\/\/www\.1314zhilv\.com\/ltsstnew\/(userApplet|user)\/getInfo url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/ltsst.js
 
 
 
