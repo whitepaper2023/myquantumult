@@ -1,19 +1,13 @@
 /*
 
 脚本功能：酷我音乐 已解锁 会员听歌，付费歌曲，听书，动效，音质，下载歌曲以及主题皮肤!!!
-下载地址：appstore
-软件版本：所有
 脚本作者：伟人
 更新时间：2022-11-22
-问题反馈：QQ+55749353
-QQ会员群：暂无
-TG反馈群：暂无
-TG频道群：暂无
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+
 
 [rewrite_local]
 
-^http[s]?:\/\/.*kuwo.*(/vip/enc/user/vip|/a.p|/vip/v2/user/vip|/vip/v2/sysinfo|/vip/v2/theme|AdService/kaiping/|/music.pay|player/getStyleListByModel).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/kw.js
+^http[s]?:\/\/.*kuwo.*(/vip/enc/user/vip|/a.p|/vip/v2/user/vip|/vip/v2/sysinfo|/vip/v2/theme|AdService/kaiping/|/music.pay|player/getStyleListByModel).*$ url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/kw.js
 [mitm]
 hostname = *kuwo*
 
