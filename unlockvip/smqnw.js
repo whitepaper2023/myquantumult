@@ -2,6 +2,7 @@
 
 脚本功能：扫描全能王-手机扫描仪+解锁VIP
 更新时间：2022-10-13
+作者：ClydeTime
 By MartinsKing
 
 
@@ -9,7 +10,7 @@ By MartinsKing
 
 [rewrite_local]
 
-^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?.+\_(RoadMap\&sign) url script-response-body https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/SMQNW/smqnw.js
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?.+\_(RoadMap\&sign) url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/smqnw.js
 
 [mitm]
 
