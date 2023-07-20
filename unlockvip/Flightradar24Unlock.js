@@ -1,8 +1,8 @@
 /******************************
-本脚本完全免费，严禁商用，违者后果自负
+
 
 [rewrite_local]
-^https?:\/\/mobile\.flightradar24\.com\/mobile\/user-session\WtokenLogin.+ url script-response-body Flightradar24Unlock.js
+^https?:\/\/mobile\.flightradar24\.com\/mobile\/user-session\WtokenLogin.+ url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/Flightradar24Unlock.js
 
 [mitm] 
 hostname = mobile.flightradar24.com
