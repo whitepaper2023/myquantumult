@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/restore-access\.indream\.app\/restoreAccess url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/nicegram.js
+^https?:\/\/restore-access\.indream\.app\/restoreAccess url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/nicegram.js
 
 [mitm]
 hostname = restore-access.indream.app
