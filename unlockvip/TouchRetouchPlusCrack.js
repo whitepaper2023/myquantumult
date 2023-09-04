@@ -5,14 +5,13 @@
 应用下载：http://t.cn/A6OcWI6B
 脚本作者：Hausd0rff
 更新时间：2023-09-02
-脚本发布：https://t.me/yqc_123
-使用声明：⚠️仅供学习交流, 🈲️商业用途
+
 
 *******************************
 
 [rewrite_local]
 # > TouchRetouch 解锁永久 Plus
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/\$RCAnonymousID%3A\w{32}|receipts)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TouchRetouchPlusCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/\$RCAnonymousID%3A\w{32}|receipts)$ url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/TouchRetouchPlusCrack.js
 
 [mitm] 
 hostname = api.revenuecat.com
