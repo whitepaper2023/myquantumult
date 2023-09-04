@@ -4,12 +4,12 @@
 软件版本：2.6.0
 下载地址：https://is.gd/vPe5gw
 脚本作者：安妮
-使用声明：⚠️仅供参考，🈲️转载与售卖！
+
 
 **************************************
 
 [rewrite_local]
-^https:\/\/metronome-api\.quthing\.com\/vip\/state url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jiepaiqi.js
+^https:\/\/metronome-api\.quthing\.com\/vip\/state url script-response-body https://raw.githubusercontent.com/whitepaper2023/myquantumult/main/unlockvip/jiepaiqi.js
 
 [mitm]
 hostname = metronome-api.quthing.com
